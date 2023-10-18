@@ -1,0 +1,33 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    
+    height: 200;
+    width: 120%;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    size: 130px;
+    text-indent: 50px;
+}
+
+div2.relative {
+    position: relative;
+    text-indent: 500px;
+    bottom: -200px;
+}
+
+p {
+    font-size: 25px;
+    font-family: fantasy;
+    text-indent: 455px;
+    position: relative;
+    bottom: 70px;
+    
+}
+
