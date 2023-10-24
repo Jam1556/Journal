@@ -4,7 +4,7 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 70px;
+    font-size: 50px;
     
     height: 200;
     width: 120%;
@@ -26,14 +26,7 @@ div2.relative {
     bottom: -200px;
 }
 
-div.week1 {
+p.summary {
+    font-style: italic;
+  }
 
-
-p {
-    display: block;
-    font-family: fantasy;
-    font-size: 100px;
-    
-}
-
-}
