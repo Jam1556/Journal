@@ -26,18 +26,14 @@ div2.relative {
     bottom: -200px;
 }
 
+div.week1 {
+
 
 p {
-    font-size: 25px;
+    display: block;
     font-family: fantasy;
-    text-indent: 455px;
-    position: relative;
-    bottom: 70px;
+    font-size: 100px;
     
 }
 
-
-#journal {
-    background: url(//images/basicjournal.jpg) 150 150;
-    position: absolute;
 }
