@@ -36,9 +36,10 @@ h2 {
     line-height: 0%;
     font-size: 20px;
 }
+
 .wk1sum {
-    font-size: 80px;
-  }
+    font-size: 100px;
+}
 
  .home2 {
     display: flex;
@@ -52,6 +53,5 @@ h2 {
  } 
 .wk2sum {
     font-size: 100px;
-    font-style: italic;
 }
 
