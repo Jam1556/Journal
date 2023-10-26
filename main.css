@@ -2,56 +2,71 @@ body {
     background-color: aqua;
 }
 
-.h1 {
-    text-align: center;
-    font-size: 50px;
-    
-    height: 200px;
-    width: 100px;
-}
 
-.wk1title {
-    text-align: center;
-}
-
-h2 {
+.week_links {
     display: flex;
-    flex-wrap: wrap;
-    width: fit-content;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    size: 130px;
-    border-style: solid;
-    text-align: center;
-    border-width: 10px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
 }
 
+.week_links > h2 {
+    width: fit-content;
+    margin: 40px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 35px;
+}
+
+.intro {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .home1 {
     display: flex;
     flex-wrap: wrap;
-    background-color: antiquewhite;
     width: fit-content;
-    margin: 10px;
+    border-style: solid;
+    border-width: 5px;
     text-align: center;
     line-height: 0%;
     font-size: 20px;
 }
 
-.wk1sum {
-    font-size: 100px;
+.wk1title {
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
 }
 
- .home2 {
+.wk1sum  {
+    position: relative;
+    font-size: 20px;
+    letter-spacing: normal;
+}
+
+.home2 {
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(234, 11, 11);
     width: fit-content;
-    margin: 10px;
+    border-style: solid;
+    border-width: 5px;
     text-align: center;
     line-height: 0%;
-    font-size: 20px;   
+    font-size: 20px;  
  } 
+
+.wk2title {
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
 .wk2sum {
-    font-size: 100px;
+    position: relative;
+    font-size: 20px;
+    letter-spacing: normal;
 }
 
