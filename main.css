@@ -47,6 +47,54 @@ body {
     letter-spacing: normal;
 }
 
+.wk1sum > .js_wk1 {
+    display: flex;
+    height: 250px;
+    width: 1200px;
+}
+
+.wk1sum > .js_image {
+    position: relative;
+    position: left;
+    
+}
+
+.wk1sum > .js_wk1 > .js_title {
+    display: flex;
+    width: 20px;
+    height: 10px;
+    position: relative;
+    left: 22px;
+}
+
+.wk1sum > .js_wk1 > .js_sum {
+    position: relative;
+    top: 95px;
+
+}
+
+.wk1sum > .gh_wk1 {
+    display: flex;
+    width: 1600px;
+    height: 500px;
+}
+
+.gh_wk1 > .gh_title {
+    display: flex;
+    position: relative;
+    left: 20px;
+    height: 10px;
+    width: 20px;
+}
+
+.gh_wk1 > .gh_sum {
+    display: flex;
+    position: relative;
+    top: 80px;
+    height: 350px;
+    width: 1600px;
+}
+
 .home2 {
     display: flex;
     flex-wrap: wrap;
@@ -68,5 +116,76 @@ body {
     position: relative;
     font-size: 20px;
     letter-spacing: normal;
+}
+
+.wk2sum > .htmlwk2 {
+    display: flex;
+    height: 200px;
+    width: 1200px;
+    position: relative;
+    top: 20px;
+}
+
+.wk2sum > .htmlwk2 .htmlwk2_title {
+    display: flex;
+    width: 20px;
+    height: 10px;
+    position: relative;
+    left: 22px;
+    bottom: 40px;
+}
+
+.wk2sum > .htmlwk2 > .htmlwk2_sum {
+    position: relative;
+    top: 45px;
+}
+
+.wk2sum > .html_image {
+    position: relative;
+    position: left;   
+}
+
+.wk2sum > .csswk2 {
+    display: flex;
+    height: 300px;
+    width: 1200px;
+    position: relative;
+    top: 30px;
+}
+
+.wk2sum > .csswk2 > .csswk2_title {
+    display: flex;
+    width: 20px;
+    height: 10px;
+    position: relative;
+    left: 22px;
+    bottom: 20px;
+}
+
+.wk2sum > .csswk2 > .csswk2_sum {
+    position: relative;
+    top: 75px;
+}
+
+
+.wk2sum > .sqlwk2 {
+    display: flex;
+    height: 400px;
+    width: 1500px;
+    position: relative;
+}
+
+.wk2sum > .sqlwk2 > .sql_title {
+    display: flex;
+    width: 20px;
+    height: 10px;
+    position: relative;
+    left: 22px;
+    bottom: 43px;
+}
+
+.wk2sum > .sqlwk2 > .sqlwk2_sum {
+    position: relative;
+    top: 46px;
 }
 
