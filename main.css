@@ -1,39 +1,49 @@
 body {
-    background-image: url("./images/bluewallpapergradient.png");
-}
+    background-color: cornflowerblue;
+} 
 
 
-.week_links {
+ul {
     display: flex;
+    font-size: 40px;
     height: 80px;
     justify-content: center;
     align-items: center;
     background-color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
 }
 
-.week_links > h2 {
-    width: fit-content;
-    margin: 40px;
-    text-align: center;
-    line-height: 60px;
-    font-size: 35px;
+
+li {
+    float: right;
 }
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: aqua;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
 
 .intro {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.home1 {
-    display: flex;
-    flex-wrap: wrap;
-    width: fit-content;
-    border-style: solid;
-    border-width: 5px;
-    text-align: center;
-    line-height: 0%;
-    font-size: 20px;
-}
 
 .wk1title {
     text-align: center;
@@ -53,11 +63,6 @@ body {
     width: 1200px;
 }
 
-.wk1sum > .js_image {
-    position: relative;
-    position: left;
-    
-}
 
 .wk1sum > .js_wk1 > .js_title {
     display: flex;
@@ -95,16 +100,6 @@ body {
     width: 1600px;
 }
 
-.home2 {
-    display: flex;
-    flex-wrap: wrap;
-    width: fit-content;
-    border-style: solid;
-    border-width: 5px;
-    text-align: center;
-    line-height: 0%;
-    font-size: 20px;  
- } 
 
 .wk2title {
     text-align: center;
@@ -140,10 +135,6 @@ body {
     top: 45px;
 }
 
-.wk2sum > .html_image {
-    position: relative;
-    position: left;   
-}
 
 .wk2sum > .csswk2 {
     display: flex;
@@ -190,3 +181,8 @@ body {
 }
 
 
+
+.sqlwk4_sum {
+    position: relative;
+    text-size-adjust: 50px;
+}
