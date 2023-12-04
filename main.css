@@ -1,3 +1,4 @@
+
 body {
     background-color: #9deded;
 } 
@@ -83,11 +84,4 @@ li a:hover:not(.active) {
 #weekbtn:hover {
     background-color: dimgrey;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-
-
-.sqlwk4_sum {
-    position: relative;
-    text-size-adjust: 50px;
 }
